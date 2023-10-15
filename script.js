@@ -1,0 +1,14 @@
+gsap.from("#top",{
+    y:350,
+    duration:2,
+    delay:1,
+    rotate:360,
+    yoyo:true
+})
+gsap.from("#bottom",{
+    y:-600,
+    duration:2,
+    delay:1,
+    rotate:360,
+    yoyo:true
+})
